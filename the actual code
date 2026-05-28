@@ -1,7 +1,7 @@
 # ==============================================================================
-# micro:bit OS update 1.6 - FULL-SCALE PRODUCTION BUILD
+# microbit OS update 1.6 - FULL-SCALE PRODUCTION BUILD
 # ==============================================================================
-# Description: A fully-featured, modular operating system for the BBC micro:bit.
+# Description: A fully-featured, modular operating system for the BBC microbit.
 # Features 7 discrete applications, a complete external TM1637 display driver,
 # global power-state management, and real-time hardware polling.
 # ==============================================================================
@@ -517,7 +517,7 @@ class MicroOS:
 # Instantiate the OS, boot the hardware, and surrender control to the main loop.
 
 if __name__ == '__main__':
-    system = micro:bitOS()
+    system = microbitOS()
     system.boot()
     system.main_loop()
 
